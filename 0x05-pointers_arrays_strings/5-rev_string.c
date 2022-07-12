@@ -1,4 +1,4 @@
-#include "mainn.h"
+#include "main.h"
 
 /**
  * rev_string - a function that reverse a string
@@ -20,4 +20,4 @@ void rev_string(char *s)
 		s[i++] = s[len];
 		s[len] = aux;
 	}
-} 
+}
